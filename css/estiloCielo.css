@@ -1,0 +1,112 @@
+* {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.4;
+}
+
+body {
+	background-image: url("../img/sky.jpg");
+  	background-repeat: repeat-y;
+}
+
+caption {
+	width: 100%;
+	text-align: center;
+	border: groove;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 5px;
+	background-color:#AAAAFF;
+}
+
+table {
+	width: 50%;
+	border-spacing:0;
+	border-collapse:separate;
+}
+
+td,th {
+	padding:3px;
+}
+
+tr{
+	background-color:#99EEFF;
+}
+
+tr:before{
+	background-color: #F00;
+}
+
+tr:after{
+	background-color: #F00;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.subtable {
+	margin-top: 0px;
+}
+
+.panel-body{
+	padding:15px;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px
+}
+
+.subtitulo{
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;	
+	background-color:#BBBBFF;
+}
+
+.info{
+	padding-left: 20px;
+	text-align: left;
+	font-weight: bold;
+	width: 200px;
+}
+
+.description{
+	text-align: left;
+	font-style: italic;
+	height: auto;
+	width: 400px;
+}
+
+.tablaInterlineado{
+	background-color:#CCCCFF;
+}
+
+.radiusBorder{
+	border-radius:5px;
+}
+
+.ocultar{
+	display: none;
+}
+
+.temas{
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+	cursor: pointer;
+}
+
+.temasSeleccion{
+	text-decoration: underline;
+	color: black;
+	cursor: default;
+}
